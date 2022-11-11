@@ -11,12 +11,12 @@ IIOU는 삭제되면 안되는 박스까지 삭제하여 match_threshold를 조�
      [ IIOU - F1-score : 0.3333 ]
     </div>
   </p>
-  잘 인식하는것처럼 보이지만 초록색으로 칠한부분이 뚜렷하게  탐지 안된 것을 볼 수 있다.<br>
-  로그를 통해 IIOU가 아닌 NMS에서 삭제된 것을 파악 했고, match(nms)_threshold 값을 0.7로 올렸다.
+  잘 인식하는것처럼 보이지만 초록색은 왜 탐지가 안됐는지 이해가 안갈 수준이었고,<br>
+  로그를 통해 IIOU가 아닌 NMS에서 삭제된 것을 파악하여 match(nms)_threshold 값을 0.7로 올렸다.
   <p float="left">
       <div align = "center">
        <img src="https://github.com/KangHongJun/Tuning_Threshold/blob/main/threshold_tuning/IIOU_NMS.png", width="70%"><br>
-     [ IIOU - F1-score : 0.4348
+     [ IIOU - F1-score : 0.4348 ]
     </div>
   </p>
   threshold을 조정하니 merge되어 사라졌던 detect box도 탐지된 것을 볼 수 있다.<br>
