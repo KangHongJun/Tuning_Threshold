@@ -3,12 +3,12 @@
 
 ## 조정 전 match(nms)_threshold=0.5, confidence_threshold=0.4
 
-<div align="center">rl
-  <p float="left">
+<div align="center">
+     <p float="left">
     <div align = "center">
-      <img src="https://github.com/KangHongJun/Tuning_Threshold/blob/main/threshold_tuning/N_IIOU.png", width="70%">
-      [IIOU - F1-score : 0.3333]
+       <img src="https://github.com/KangHongJun/Tuning_Threshold/blob/main/threshold_tuning/N_IIOU.png", width="70%"><br>
+     [ IIOU - F1-score : 0.3333 ]
     </div>
   </p>
+  기존 NMS와
 </div>
-
