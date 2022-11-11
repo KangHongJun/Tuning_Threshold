@@ -1,0 +1,5 @@
+  		score	TP	FP	FN
+yolox                 0.1449	5	0	59
+just nms		0.3617	17	13	47
+ONMS		0.3736	17	10	47
+include + nms	0.4348	20	8	44
