@@ -6,7 +6,7 @@
 <div align="center">rl
   <p float="left">
     <div align = "center">
-      <img src="https://github.com/KangHongJun/Tuning_Threshold/blob/main/threshold_tuning/N_IIOU.png", width="70%
+      <img src="https://github.com/KangHongJun/Tuning_Threshold/blob/main/threshold_tuning/N_IIOU.png", width="70%>
       [IIOU - F1-score : 0.3333]
     </div>
   </p>
